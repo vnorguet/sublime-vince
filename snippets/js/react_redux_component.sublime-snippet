@@ -4,29 +4,29 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 function mapStateToProps(state) {
-  return {
+	return {
 
-  };
+	};
 }
 
 export class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends React.Component {
-  static propTypes = {
-    ${2:name}: React.PropTypes.${3:string},
-  };
+	static propTypes = {
+		${2:name}: React.PropTypes.${3:string},
+	};
 
-  constructor(props) {
-    super(props);
-  }
+	constructor(props) {
+		super(props);
+	}
 
-  render() {
-    return (
-      <${4:div}></${4:div}>
-    );
-  }
+	render() {
+		return (
+			<${4:div}></${4:div}>
+		);
+	}
 }
 
 export default connect(
-  mapStateToProps,
+	mapStateToProps,
 // Implement map dispatch to props
 )(${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}})
 

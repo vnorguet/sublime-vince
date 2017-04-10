@@ -1,0 +1,38 @@
+<snippet>
+  <content><![CDATA[
+/**
+ * React Component Class
+ */
+
+import React from 'react';
+
+class ${1:ClassName} extends React.Component {
+  constructor(props, context) {
+    super(props, context);
+    this.state = {};
+
+    // Binding action handlers
+  }
+
+  render() {
+    return (
+      <div>
+      </div>
+    )
+  }
+}
+
+// Props validation : https://facebook.github.io/react/docs/reusable-components.html
+${1}.propTypes = {
+
+}
+
+export default ${1};
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>react-class</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+  <description>React component class</description>
+</snippet>

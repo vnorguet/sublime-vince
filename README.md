@@ -41,49 +41,11 @@ It's easy! Simply activate snippets by typing a mnemonic followed by TAB.
 #### Documentation of available snippets (JSX):
 
 ```
-    cdm→  componentDidMount: fn() { ... }
+  describe→  ES6 describe
 
-   cdup→  componentDidUpdate: fn(pp, ps) { ... }
+  exports→  exports.myFunction = function(...)
 
-     cs→  import cx from 'classnames';
-
-    cwm→  componentWillMount: fn() { ... }
-
-    cwr→  componentWillReceiveProps: fn(np) { ... }
-
-    cwu→  componentWillUpdate: fn(np, ns) { ... }
-
-   cwun→  componentWillUnmount: fn() { ... }
-
-     cx→  cx({ ... })
-
-    fdn→  React.findDOMNode(...)
-
-    fup→  forceUpdate(...)
-
-    gdp→  static defaultProps = { ... } 
-
-    gis→  getInitialState: fn() { return {...} } 
-
-    ism→  isMounted()
-
-  props→  this.props.
-
-     pt→  propTypes { ... }
-
-    rcc→  component skeleton
-
-   refs→  this.refs.
-
-    ren→  render: fn() { return ... }
-
-    rrc→  redux component skeleton
-
-    scu→  shouldComponentUpdate: fn(np, ns) { ... }
-
-    sst→  this.setState({ ... })
-
-  state→  this.state.
+     it→  ES6 it
 
 ```
 

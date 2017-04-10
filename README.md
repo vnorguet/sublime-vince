@@ -4,13 +4,17 @@ This is a fork of Facebook's original ReactJS Sublime Package.
 
 The main changes I've made include:
 
-- Converting function declarations to the new ES6 shorthand.
-
-- Static class variables (defaultProps, propTypes) are declared using ES7 property intializers.
-
-- ES6 style exports and imports for component creating snippets.
-
-- Added `rrc` for Redux connected components.
+- Plain JS
+    + function
+    + exports
+- Mocha
+    + describe
+    + it
+- React/Meteor
+    + Flow route generator
+    + React class
+    + React container
+    + React Formatted message
 
 ![alt tag](https://raw.githubusercontent.com/mboperator/sublime-react/master/docs/img/sr-rcc-out.gif)
 
@@ -54,4 +58,3 @@ It's easy! Simply activate snippets by typing a mnemonic followed by TAB.
 ### Rebuilding the docs
 
 After making changes to snippet files, run `npm install && npm run build-docs` to automatically generate this document from source. **Do not** make changes to README.md directly.
-
